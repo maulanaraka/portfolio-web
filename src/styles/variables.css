@@ -1,0 +1,28 @@
+:root {
+  /* Colors */
+  --bg-color: #0f172a;
+  --text-color: #e2e8f0;
+  --primary-color: #38bdf8;
+  --secondary-color: #818cf8;
+  --accent-color: #f472b6;
+  --card-bg: #1e293b;
+  
+  /* Typography */
+  --font-main: 'Inter', sans-serif;
+  
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+}
+
+body.light-mode {
+  --bg-color: #f8fafc;
+  --text-color: #1e293b;
+  --card-bg: #ffffff;
+}
