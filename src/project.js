@@ -80,7 +80,7 @@ async function init() {
   const container = document.querySelector('#project-detail .container');
   if (!container) return;
 
-  const projects = await loadJSON('/content/projects.json');
+  const projects = await loadJSON(['content/projects.json','./content/projects.json']);
   if (!projects) {
     renderNotFound(container);
     return;

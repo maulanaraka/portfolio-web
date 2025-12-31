@@ -162,8 +162,8 @@ function initCarousel() {
 }
 
 async function initContent() {
-  const skills = await loadJSON(['content/skills.json', '/content/skills.json']) || defaultSkills;
-  const projects = await loadJSON(['content/projects.json', '/content/projects.json']) || defaultProjects;
+  const skills = await loadJSON(['content/skills.json', './content/skills.json']) || defaultSkills;
+  const projects = await loadJSON(['content/projects.json', './content/projects.json']) || defaultProjects;
 
   renderSkills(Array.isArray(skills) ? skills : defaultSkills);
   renderProjects(Array.isArray(projects) ? projects : defaultProjects);
