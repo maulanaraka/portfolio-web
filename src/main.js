@@ -38,7 +38,7 @@ const defaultProjects = [
     tech: ['HTML','CSS','JavaScript'],
     demoUrl: '#',
     codeUrl: '#',
-    imageUrl: 'https://via.placeholder.com/1200x675?text=Project+One'
+    imageUrl: 'src/image/ab8758831428e8012e39fd4f73d93487.jpg'
   }
 ];
 
