@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="src/styles/main.css">
+    <script>document.documentElement.classList.add('js');</script>
   </head>
   <body>
     <div id="app">
       <nav class="navbar">
-        <div class="logo">Portfolio</div>
+        <div class="logo">Data</div>
         <ul class="nav-links">
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -25,7 +27,7 @@
         <section id="hero" class="hero-section">
           <div class="hero-content">
             <h1 class="animate-text">Hello, I'm <span class="highlight">Raka</span></h1>
-            <p class="subtitle">The data knows where the gold is <br> I'll make it talk</p>
+            <p class="subtitle">Data Scientist | Web Developer | Machine Learning | Computer Vision</p>
             <div class="cta-buttons">
               <a href="#projects" class="btn primary">View Work</a>
               <a href="#contact" class="btn secondary">Contact Me</a>
@@ -37,7 +39,9 @@
           <h2>About Me</h2>
           <div class="about-content">
             <div class="about-text">
-              <p>I am a passionate developer with a knack for creating beautiful and functional websites. I love solving complex problems and learning new technologies.</p>
+              <p>I am an Information Systems graduate from Telkom University with strong skills in programming, data management, and web development. 
+                I have hands-on experience through academic and independent projects, supported by a data science certification. 
+                I am passionate about leveraging data to generate insights and build AI-driven solutions, with a long-term goal of growing as a data scientist who contributes to impactful, real-world business innovations.</p>
             </div>
           </div>
         </section>
@@ -45,41 +49,29 @@
         <section id="skills" class="skills-section">
           <h2>Skills</h2>
           <div class="skills-grid">
-            <div class="skill-card">HTML5</div>
-            <div class="skill-card">CSS3</div>
-            <div class="skill-card">JavaScript</div>
-            <div class="skill-card">React</div>
-            <div class="skill-card">Node.js</div>
-            <div class="skill-card">Git</div>
+            <!-- Skills will be injected here -->
           </div>
         </section>
 
         <section id="projects" class="projects-section">
           <h2>Projects</h2>
-          <div class="projects-grid">
-            <!-- Projects will be populated here -->
-            <article class="project-card">
-              <div class="project-image"></div>
-              <div class="project-info">
-                <h3>Project One</h3>
-                <p>A cool project description goes here.</p>
-                <div class="project-links">
-                  <a href="#">Demo</a>
-                  <a href="#">Code</a>
-                </div>
-              </div>
-            </article>
-            <article class="project-card">
-              <div class="project-image"></div>
-              <div class="project-info">
-                <h3>Project Two</h3>
-                <p>Another cool project description.</p>
-                <div class="project-links">
-                  <a href="#">Demo</a>
-                  <a href="#">Code</a>
-                </div>
-              </div>
-            </article>
+
+          <div class="projects-carousel">
+            <div class="carousel-track">
+              <!-- Project cards will be injected here -->
+            </div>
+
+            <!-- Controls -->
+            <div class="carousel-controls">
+              <button class="carousel-button prev" aria-label="Previous project">‹</button>
+              <button class="carousel-button next" aria-label="Next project">›</button>
+            </div>
+
+            <!-- Dots -->
+            <div class="carousel-dots">
+              <button class="carousel-dot" aria-current="true"></button>
+              <button class="carousel-dot"></button>
+            </div>
           </div>
         </section>
 
@@ -95,9 +87,9 @@
       </main>
 
       <footer>
-        <p>&copy; 2024 My Portfolio. Built with Vite.</p>
+        <p>&copy; 2025 My Portfolio. Built with Vite.</p>
       </footer>
     </div>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="src/main.js"></script>
   </body>
 </html>

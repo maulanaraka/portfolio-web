@@ -1,0 +1,22 @@
+[
+  {
+    "id": "project-1",
+    "title": "Project One",
+    "description": "A cool project description goes here.",
+    "longDescription": "Detailed description for Project One. Add more context, screenshots, and links here.",
+    "tech": ["HTML","CSS","JavaScript"],
+    "demoUrl": "#",
+    "codeUrl": "#",
+    "imageUrl": "src/image/a63275345c0a2a305e930f7f35bd77f9.jpg"
+  },
+  {
+    "id": "project-2",
+    "title": "Project Two",
+    "description": "Another cool project description.",
+    "longDescription": "Detailed description for Project Two. Show features, challenges, and outcomes.",
+    "tech": ["React","Node.js"],
+    "demoUrl": "#",
+    "codeUrl": "#",
+    "imageUrl": "src/image/ab8758831428e8012e39fd4f73d93487.jpg"
+  }
+]

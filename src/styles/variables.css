@@ -6,6 +6,12 @@
   --secondary-color: #818cf8;
   --accent-color: #f472b6;
   --card-bg: #1e293b;
+  --navbar-bg-color: rgba(15, 23, 42, 0.8);
+  --navbar-border-color: rgba(255,255,255,0.06);
+  --card-border-color: rgba(255,255,255,0.05);
+  --muted-text-color: #94a3b8;
+  --input-border-color: rgba(255,255,255,0.1);
+  --footer-text-color: #64748b;
   
   /* Typography */
   --font-main: 'Inter', sans-serif;
@@ -25,4 +31,10 @@ body.light-mode {
   --bg-color: #f8fafc;
   --text-color: #1e293b;
   --card-bg: #ffffff;
+  --navbar-bg-color: rgba(255,255,255,0.9);
+  --navbar-border-color: rgba(0,0,0,0.08);
+  --card-border-color: rgba(0,0,0,0.06);
+  --muted-text-color: #475569;
+  --input-border-color: rgba(0,0,0,0.12);
+  --footer-text-color: #475569;
 }
